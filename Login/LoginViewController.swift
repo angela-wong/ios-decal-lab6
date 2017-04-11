@@ -43,7 +43,7 @@ class LoginViewController: UIViewController {
     var email: UITextField = {
         let txt = UITextField()
         txt.backgroundColor = .white
-        txt.text = "berkeley.edu account"
+        txt.placeholder = "berkeley.edu account"
         txt.font = UIFont(name: "avenir", size: 18)
         txt.textAlignment = .left
         txt.textColor = .gray
@@ -53,7 +53,7 @@ class LoginViewController: UIViewController {
     var password: UITextField = {
         let txt = UITextField()
         txt.backgroundColor = .white
-        txt.text = "Password"
+        txt.placeholder = "Password"
         txt.font = UIFont(name: "avenir", size: 18)
         txt.textAlignment = .left
         txt.textColor = .gray
